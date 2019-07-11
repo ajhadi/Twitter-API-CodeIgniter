@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #353535;
+}
+/*    --------------------------------------------------
+	:: Menu
+	-------------------------------------------------- */
+
+.navbar-nav>li>.dropdown-menu {
+	background:transparent;
+    outline:none;
+    border:none;
+    box-shadow:none;
+    text-align: center;
+    margin-top: 6px;
+    left: 50%;
+    right: auto;
+    text-align: center;
+    transform: translate(-50%, 0);
+}
+
+.dropdown-menu:before {
+	background:transparent;
+    outline:none;
+    border:none;
+    box-shadow:none;
+    text-align: center;
+    width: 100%;
+
+  position: absolute;
+  top: -7px;
+  left: 50%;
+  right: auto;
+  display: inline-block;
+  content: '';
+}

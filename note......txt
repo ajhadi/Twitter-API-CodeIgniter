@@ -1,0 +1,9 @@
+nama database : db_login
+
+untuk user admin 
+
+id : admin@admin.com
+pass : password
+
+untuk user lain 
+pass : Opsint2018
